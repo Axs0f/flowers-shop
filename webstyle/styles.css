@@ -1,0 +1,160 @@
+/* shared designs */
+.fontshade{
+color: rgba(233, 90, 8, 1);
+
+}
+
+
+
+
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  
+  font-weight:500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* navbar */
+.color{
+
+    color: black;
+}
+.color1{
+    color: gray;
+    font-weight: 400;
+}
+.navlist{
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+.navlist a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    max-width: 1140px;
+    margin-left: 55px;
+    height: 71px;
+    /* gap: 589px; */
+    justify-content:space-between;
+}
+/* banner */
+.flex{
+
+    display:flex;
+    margin: 0 auto;
+    margin-top: 108px;
+    max-width: 1140px;
+}
+.img-mod{
+
+    width: 570px;
+    height: 355px;
+}
+.heading{
+    font-size: 65px;
+    font-weight: bold;
+}
+.description{
+
+    margin-top: -33px;
+}
+/* our plants*/
+.plants{
+    text-align: center;
+
+}
+.description1{
+    max-width: 888px;
+    margin: 0 auto;
+}
+/* cards  */
+.btn-primary{
+background-color: rgba(233, 90, 8, 1); 
+padding: 10px 103px;
+cursor: pointer;
+border: none;
+color: azure;
+}
+
+
+.lily-card{
+    width: 280px;
+    margin-top: 20px;
+    
+}
+
+.info{
+    text-align: center;
+    max-width: 280px;
+    
+}
+.name{
+    margin-top: -5px;
+    align-items: center;
+}
+.price{
+align-content: center;
+margin-top: -5px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* badge */
+.badge{
+    width: 286px;
+    height: 286px;
+    margin-top: -130px;
+    margin-left: -150px;
+    
+}
+.heading2{
+    font-size: 50px;
+
+}
+.plantlover{
+    display: flex;
+    max-width: 1140px;
+    gap: 70px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.fontsize{
+    font-size: 1.2rem;
+}
+
+.flex1{
+    display: flex;
+}
+/* colorful bunch */
+.font2{
+    font-size: 2.9rem;
+    
+    color: azure;
+    
+}
+.margin{
+    margin-top: 600px;
+}
+.box{
+    border: 9px solid white;
+    padding-right: 300px;
+    margin-top: 50px;
+}
+.background-work{
+ width: 100%;
+ margin-left: 10px;
+}
+.container{
+text-align: center;
+margin-top: 40px;
+}
