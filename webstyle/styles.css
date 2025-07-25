@@ -23,7 +23,7 @@ color: rgba(233, 90, 8, 1);
 }
 .color1{
     color: gray;
-    font-weight: 400;
+    font-weight: 500;
 }
 .navlist{
 
@@ -37,8 +37,9 @@ color: rgba(233, 90, 8, 1);
 }
 .navbar{
     display: flex;
-    max-width: 1140px;
-    margin-left: 100px;
+    /* max-width: 1140px; */
+    /* margin-left: 100px; */
+    justify-content: center;
     height: 71px;
     gap: 605px;
     
@@ -137,15 +138,15 @@ margin-top: -5px;
 }
 /* colorful bunch */
 .font2{
-    font-size: 2.9rem;
+    font-size: 2.5rem;
     
     color: azure;
     
 }
 .box{
     border: 9px solid white;
-    padding-right: 300px;
-    margin-top: 50px;
+    padding-right: 500px;
+    margin-top: 1rem;
 }
 .background-work{
  width: 100%;
@@ -153,5 +154,107 @@ margin-top: -5px;
 }
 .container{
 text-align: center;
-margin-top: 40px;
+margin-top: 20px;
+}
+/* footer part */
+.ftr-design{
+width: 359px;
+
+/* border: 2px solid black; */
+}
+.ftr-list{
+list-style: none;
+    /* display: flex; */
+    /* margin-top: 35px; */
+
+}
+
+.flex2{
+    display: flex;
+    margin-top: 20px;
+    /* grid-template-columns: repeat(4,1fr); */
+    justify-content: space-around;
+}
+
+/* latest deals */
+
+
+.latest{
+text-align: center;
+margin-top: 80px;
+
+}
+.description3{
+    color: gray;
+    margin-top: -20px;
+}
+.latest1{
+    font-size: 50px;
+
+}
+.latest-deals {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.latest-deals .description {
+  color: #666;
+  max-width: 600px;
+  margin: 10px auto 40px;
+  font-size: 13px;
+}
+
+.deal-grid {
+  display: flex;
+  margin-top: 60px;
+  gap:8px;
+  justify-content: center;
+
+}
+.pictures{
+display: flex;
+flex-direction: column;
+gap: 29px;
+
+}
+.deal-item {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.deal-item.small {
+  width: 250px;
+  height: 200px;
+  
+}
+
+.deal-item.large {
+  width: 550px;
+  height: 430px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.overlay h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.overlay a{
+text-decoration: underline;
+color: white;
+
 }
