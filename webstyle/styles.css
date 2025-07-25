@@ -260,8 +260,29 @@ color: white;
 }
 
 /* responsive part */
+
+
+
+
 @media screen and (max-width:440px) {
 
+
+.navbar {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 15px 20px;
+width: 100%;
+gap: 280px;
+}
+
+
+body{
+
+padding: 0px 20px;
+overflow-x: hidden;
+
+}
 .hidden{
 display: none;
 
