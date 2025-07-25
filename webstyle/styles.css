@@ -264,7 +264,7 @@ color: white;
 
 
 
-@media screen and (max-width:440px) {
+@media screen and (max-width:430px) {
 
 
 .navbar {
@@ -334,4 +334,8 @@ flex-direction: column;
 .badge{
     display: none;
 }
+.box{
+    border: 9px solid white;
+    padding-right: 50px;
+    margin-top: 1rem;}
 }
