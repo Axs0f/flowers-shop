@@ -38,10 +38,10 @@ color: rgba(233, 90, 8, 1);
 .navbar{
     display: flex;
     max-width: 1140px;
-    margin-left: 55px;
+    margin-left: 100px;
     height: 71px;
-    /* gap: 589px; */
-    justify-content:space-between;
+    gap: 605px;
+    
 }
 /* banner */
 .flex{
@@ -141,9 +141,6 @@ margin-top: -5px;
     
     color: azure;
     
-}
-.margin{
-    margin-top: 600px;
 }
 .box{
     border: 9px solid white;
